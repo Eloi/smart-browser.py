@@ -1,4 +1,3 @@
-
 smart-browser.py - Open any URL in your preferred browser
 =========================================================
 
