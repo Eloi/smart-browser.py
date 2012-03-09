@@ -34,7 +34,7 @@ Installation
    
 3. Copy smart-browser.py to some directory in your executable path (p.e. /usr/local/bin). Copy the configuration file (smart-browser.cfg) to your CONFIGFILE location (or just copy it to the same place as smart-browser.py if you ignored step 1).
 
-4. Customize your OS to open url links with smart-browser.py. How to make this step depends on your operating system and tech skills, so don't hesitate to [google for it](http://www.google.com/q=set+default+browser).
+4. Customize your OS to open url links with smart-browser.py. How to make this step depends on your operating system and tech skills, so don't hesitate to [google for it](http://www.google.com/?q=set+default+browser).
 
 
 5. Edit smart-browser.cfg to suit your needs.
