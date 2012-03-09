@@ -1,4 +1,3 @@
-
 smart-browser.py - Open any URL in your preferred browser
 =========================================================
 
@@ -31,7 +30,7 @@ Installation
 
 2. Mark smart-browser.py as executable
 
-    chmod +x smart-browser.py
+	chmod +x smart-browser.py
    
 3. Copy smart-browser.py to some directory in your executable path (p.e. /usr/local/bin). Copy the configuration file (smart-browser.cfg) to your CONFIGFILE location (or just copy it to the same place as smart-browser.py if you ignored step 1).
 
