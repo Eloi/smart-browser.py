@@ -31,11 +31,11 @@ Installation
 
 2. Mark smart-browser.py as executable
 
-    chmod +x smart-browser.py
+	chmod +x smart-browser.py
    
 3. Copy smart-browser.py to some directory in your executable path (p.e. /usr/local/bin). Copy the configuration file (smart-browser.cfg) to your CONFIGFILE location (or just copy it to the same place as smart-browser.py if you ignored step 1).
 
-4. Customize your OS to open url links with smart-browser.py. How to make this step depends on your operating system and tech skills, so don't hesitate to [google for it](http://www.google.com/q=set+default+browser).
+4. Customize your OS to open url links with smart-browser.py. How to make this step depends on your operating system and tech skills, so don't hesitate to [google for it](http://www.google.com/?q=set+default+browser).
 
 
 5. Edit smart-browser.cfg to suit your needs.
@@ -67,13 +67,14 @@ Example:
 *Important note*: Only alphanumeric characters and dots are supported as the text to search, mostly because the limited functionality of the ConfigParser python module and my current lack of necessity to program something to work around it. Id sometime I need this functionality I will add it (see TODO #1).
 
 
-TODO
-----
+TODO / Roadmap
+--------------
 
 There is a lot of room for improvements:
 
 * More flexible URL definitions (like allowing regular expressions), introducing a ConfigObj dependency or programming a custom parser for the config file.
 * Open URLs dinamically detecting the correct profile. Look into bookmarks, current browsing sessions or other sources to choose how to open an URL. This must be pretty easy to do, as most of this data is plain text or stored in sqlite databases.
 * Windows compatibility. I didn't have tested this program in a Windows environment, but it should probably run (provided Python is installed and configured to open *.py files). Feel free to contact me if you try it :)
+* Better packaging (like a deb file or a PPA).
 
-
+Feel free to contact me also if you have any suggestions.
